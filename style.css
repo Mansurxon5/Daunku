@@ -1,0 +1,639 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.furniture {
+    width: 100%;
+    height: 100vh;
+    background-image: url(./image/2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav {
+    width: 100%;
+    height: 12vh;
+    display: flex;
+}
+
+nav i {
+    background: linear-gradient(90deg, #2AF598 0%, #009EFD 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    font-size: 50px;
+    margin: 25px 0 0 100px;
+}
+
+.daunku {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    color: #FFFFFF;
+    margin: 30px 0 0 10px;
+}
+
+.about {
+    list-style-type: none;
+    display: flex;
+    margin: 35px 0 0 300px;
+    font-size: 26px;
+}
+
+.about li {
+    margin-left: 70px;
+    color: #FFFFFF;
+}
+
+.home {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    background: linear-gradient(90deg, #2AF598 0%, #009EFD 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.lock {
+    margin: 25px 0 0 30rem;
+}
+
+.help {
+    width: 25px;
+    height: 25px;
+    background: linear-gradient(90deg, #2AF598 0%, #009EFD 100%);
+    border-radius: 50%;
+    font-weight: bold;
+    font-size: 13px;
+    text-align: center;
+    margin: 30px 0 0 0;
+    margin-left: -25px;
+}
+
+.out {
+    position: absolute;
+    margin: 5px 0 0 8px;
+}
+
+.bring {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 82px;
+    line-height: 96px;
+    margin-left: 430px;
+    color: #FFFFFF;
+    margin-top: 50px;
+    text-align-last: 100px;
+}
+
+.find {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 150%;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 20px 0 0 100px;
+}
+
+
+.search {
+    width: 463px;
+    height: 71px;
+    left: 0px;
+    top: 0px;
+    background: rgba(255, 255, 255, 0.2);
+    border: 1px solid #FFFFFF;
+    backdrop-filter: blur(20px);
+    border-radius: 50px;
+    margin-left: 770px;
+    display: flex;
+    margin-top: -200px;
+}
+
+.search:active {
+    background: cornflowerblue;
+}
+
+.plant {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 23px;
+    color: #FFFFFF;
+    padding: 20px 0 0 40px;
+}
+
+.plant:active {
+    color: pink;
+}
+
+
+.frag:hover {
+    background: indigo;
+}
+
+.frag i:hover {
+    color: #2AF598;
+}
+
+.shop,
+.shops,
+.shoper {
+    width: 54px;
+    height: 54px;
+    left: 447px;
+    top: 679px;
+    background: rgba(255, 255, 255, 0.2);
+    border: 1px solid #FFFFFF;
+    backdrop-filter: blur(4px);
+    border-radius: 50%;
+    margin-left: 180px;
+    margin-top: -100px;
+}
+
+.shops {
+    margin: 200px 0 0 250px;
+}
+
+.line {
+    width: 16px;
+    height: 16px;
+    left: 466px;
+    top: 698px;
+    background: #FFFFFF;
+    border-radius: 50%;
+    margin: 18px 0 0 18px;
+}
+
+.lines {
+    width: 16px;
+    height: 16px;
+    left: 466px;
+    top: 698px;
+    background: #FFFFFF;
+    border-radius: 50%;
+    margin: 28px 0 0 28px;
+}
+
+.frag {
+    width: 50px;
+    height: 50px;
+    left: 401px;
+    top: 10px;
+    background: linear-gradient(90deg, #2AF598 0%, #009EFD 100%);
+    border-radius: 50%;
+    margin: 8px 0 0 200px;
+    padding: 17px 0 0 17px;
+    color: #fff;
+}
+
+.dollor {
+    width: 205px;
+    height: 103px;
+    left: 1826px;
+    top: 761px;
+    background: rgba(255, 255, 255, 0.2);
+    border: 1px solid #FFFFFF;
+    backdrop-filter: blur(10px);
+    border-radius: 24px;
+    margin: -20px 0 0 102rem;
+}
+
+.fly {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    color: #FFFFFF;
+    padding: 10px 0 0 50px;
+}
+
+.drac {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    padding: 10px 0 0 35px;
+}
+
+.shoper {
+    margin: 30px 0 0 107rem;
+}
+
+.charge {
+    width: 100%;
+    height: 100vh;
+}
+
+.admin {
+    display: flex;
+}
+
+.support {
+    display: flex;
+}
+
+.box {
+    margin: 60px 0 0 100px;
+}
+
+.fors {
+    margin: 75px 0 0 20px;
+}
+
+.frees {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38px;
+    color: #081323;
+}
+
+.each {
+    margin-top: 10px;
+}
+
+.payment,
+.payments {
+    display: flex;
+}
+
+.quick {
+    margin: 60px 0 0 350px;
+}
+
+.port {
+    margin: 70px 0 0 20px;
+}
+
+.secure {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38px;
+    color: #081323;
+}
+
+.press,
+.presser {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    color: #828282;
+    margin-top: 10px;
+}
+
+.payments {
+    margin-left: -60px;
+}
+
+.presser {
+    margin-left: 3px;
+}
+
+.seller {
+    display: flex;
+}
+
+.best {
+    width: 363px;
+    height: 150px;
+    left: 0px;
+    top: 243px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 65px;
+    line-height: 75px;
+    color: #081323;
+    margin: 300px 0 0 130px;
+}
+
+.profil {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #4F4F4F;
+    margin: 30px 0 0 130px;
+}
+
+.collect {
+    display: flex;
+}
+
+.camili {
+    width: 329px;
+    height: 350.78px;
+    left: 0px;
+    top: 123.22px;
+    background: #C1D0E4;
+    border-radius: 50px;
+    margin: 200px 0 0 100px;
+}
+
+.floster {
+    width: 329px;
+    height: 220.73px;
+    left: 0px;
+    top: 373.27px;
+    background: #FFFFFF;
+    border-radius: 50px;
+    margin-top: 50px;
+    box-shadow: 1px 0px 3px #000;
+}
+
+.master,
+.masters,
+.mast {
+    margin-top: -180px;
+}
+
+.emmet {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38px;
+    color: #081323;
+    padding-top: 20px;
+    padding-left: 40px;
+}
+
+.col {
+    margin: 5px 0 0 30px;
+}
+
+.prev {
+    display: flex;
+}
+
+.kamen {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38px;
+    color: #081323;
+    margin: 50px 0 0 40px;
+}
+
+.plas {
+    width: 60px;
+    height: 60px;
+    background: linear-gradient(90deg, #2AF598 0%, #009EFD 100%);
+    border-radius: 50%;
+    margin: 40px 0 0 60px;
+}
+
+.plas i {
+    padding: 17px 0 0 19px;
+    font-size: 25px;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+.masters {
+    margin-top: -165px;
+}
+
+.mast {
+    margin-top: -165px;
+}
+
+.interior {
+    width: 100%;
+    height: 100vh;
+}
+
+.efer {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 75px;
+    color: #081323;
+    text-align: center;
+}
+
+.comfor {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #4F4F4F;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.living {
+    display: flex;
+    margin: 50px 0 0 400px;
+}
+
+.abbr {
+    margin-left: 50px;
+}
+
+.care {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+.how {
+    width: 402px;
+    height: 150px;
+    left: 5px;
+    top: 0px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 75px;
+    color: #081323;
+    margin: 100px 0 0 160px;
+}
+
+.install {
+    display: flex;
+    margin: 20px 0 0 150px;
+}
+
+.awe {
+    margin-left: 20px;
+}
+
+.awse {
+    margin-left: 28px;
+}
+
+.awes {
+    margin-left: 30px;
+}
+
+.hear {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #4F4F4F;
+    margin: 20px 0 0 160px;
+}
+
+.light {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38px;
+    color: #000000;
+    margin: 10px 0 0 10px;
+}
+
+.caring {
+    width: 493px;
+    height: 46px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #4F4F4F;
+    margin: 10px 0 0 10px;
+}
+
+.table {
+    margin-left: 10px;
+}
+
+.often {
+    margin: 200px 0 0 100px;
+}
+
+.footer {
+    width: 100%;
+    height: 50vh;
+    background: linear-gradient(93.99deg, #566270 0.51%, #283444 100%);
+}
+
+.newslatter {
+    display: flex;
+}
+
+.news {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 56px;
+    color: #FFFFFF;
+    padding: 100px 0 0 160px;
+}
+
+.your {
+    width: 463px;
+    height: 65px;
+    left: 0px;
+    top: 0px;
+    background: rgba(255, 255, 255, 0.2);
+    border: 1px solid #FFFFFF;
+    backdrop-filter: blur(20px);
+    border-radius: 50px;
+    margin: 20px 0 0 160px;
+    display: flex;
+}
+
+.enter {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+    padding: 18px 0 0 50px;
+}
+
+.cribe {
+    width: 145px;
+    height: 47px;
+    left: 306px;
+    top: 12px;
+    background: linear-gradient(90deg, #2AF598 0%, #009EFD 100%);
+    border-radius: 50px;
+    margin: 8px 0 0 100px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 15px;
+}
+
+.your:active {
+    background: rgb(16, 16, 200);
+}
+
+.your .cribe:active {
+    background: gold;
+    color: #f52a2a;
+}
+
+.lister {
+    list-style-type: none;
+    display: flex;
+    margin: 80px 0 0 50px;
+    font-size: 27px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+.lister li {
+    margin-left: 100px;
+}
+
+.blog {
+    display: flex;
+    margin: 30px 0 0 100px;
+}
+
+.blog ul {
+    list-style-type: none;
+    color: #FFFFFF;
+    line-height: 30px;
+}
+
+.listser {
+    margin-left: 50px;
+}
+
+.listsers {
+    margin-left: 140px;
+}
+
+.java {
+    margin-left: 135px;
+}
+
+.bandung {
+    margin-left: 130px;
+}
+
+.team {
+    width: 1593.01px;
+    height: 0px;
+    left: 107px;
+    top: 345.5px;
+    border: 1px solid #FFFFFF;
+    margin: 70px 0 0 160px;
+}
+
+.product {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #FFFFFF;    
+    margin-top: 40px;
+}
